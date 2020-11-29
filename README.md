@@ -1,23 +1,23 @@
 # Jamstack development: Sites, Apps, Progressive Web App
 
-You can use the [editor on GitHub](https://github.com/ttiq/ttiq.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Use cases
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- product sites
+- docs sites
+- single page applications
+- progressive web apps
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+- Jamstack
+- Github Pages
+- Netlify
+- Markdown
+- Headless CMS
+- GatsbyJS
+- Svelte
+- Tailwind CSS
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
+[editor on GitHub](https://github.com/ttiq/ttiq.github.io/edit/main/README.md)
