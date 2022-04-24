@@ -26,13 +26,8 @@ self.addEventListener('activate', (event) => {
 });
 
 //simple strategy - only network
-self.addEventListener('fetch', (event) => {
-    console.log('fetch');
-	event.respondWith(fetch(request));
-  
-	// event.respondWith(
-	// 	caches.match(event.request)
-	// );
+self.addEventListener('fetch', event => {
+	event.respondWith(fetch(event.request));
 });
 
 
