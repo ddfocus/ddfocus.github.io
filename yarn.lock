@@ -564,6 +564,13 @@
     esbuild "^0.14.21"
     tiny-glob "^0.2.9"
 
+"@sveltejs/adapter-static@^1.0.0-next.29":
+  version "1.0.0-next.29"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.29.tgz#bdc5df5c174a2b2405622eca1817cf6850869dc6"
+  integrity sha512-0hjGnfT3BRyoHnzJ2w0/xL+xICRpKneDTm45ZzggiRrc0r71WJfF6toGeg8N4QUQnj8EJ3Itm453gsS1kt7VUQ==
+  dependencies:
+    tiny-glob "^0.2.9"
+
 "@sveltejs/adapter-vercel@1.0.0-next.49":
   version "1.0.0-next.49"
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.49.tgz#500a09ac04ab58d9316f65d762192f1ef3301832"
