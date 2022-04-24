@@ -17,8 +17,6 @@ self.addEventListener("install", (event) => {
 			"/about",
 		])
 	);
-
-	window.resizeTo(333, 777);
 });
 
 self.addEventListener('activate', (event) => {
