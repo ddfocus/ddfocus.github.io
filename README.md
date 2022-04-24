@@ -7,7 +7,7 @@ concentration, breathing and meditation
 - meditations
 - breath
 - claim
-etc.
+- etc.
 
 inspired by https://github.com/petele/SoundDrown
 
