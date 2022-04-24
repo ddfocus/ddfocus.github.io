@@ -1,4 +1,4 @@
-const version = "1650784190266";
+const version = "1650784489847";
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(version);
   await cache.addAll(resources);
@@ -14,4 +14,5 @@ self.addEventListener("activate", (event) => {
 });
 self.addEventListener("fetch", (event) => {
   console.log("fetch");
+  event.respondWith(fetch(request));
 });

@@ -23,9 +23,11 @@ self.addEventListener('activate', (event) => {
     console.log('Активирован');
 });
 
-
+//simple strategy - only network
 self.addEventListener('fetch', (event) => {
     console.log('fetch');
+	event.respondWith(fetch(request));
+  
 	// event.respondWith(
 	// 	caches.match(event.request)
 	// );
