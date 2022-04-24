@@ -2,7 +2,7 @@
     "short_name": "DDFocus",
     "name": "DDFocus",
     "description": "Deep Digital Focus - concatrate, meditate, breath",
-    "start_url": "/",
+    "start_url": "/index.html",
     "icons": [
       {
         "src": "logo.png",

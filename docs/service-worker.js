@@ -1,6 +1,10 @@
+const addResourcesToCache = async (resources) => {
+  const cache = await caches.open("v1");
+  await cache.addAll(resources);
+};
 self.addEventListener("install", (event) => {
-  console.log("Service worker installed");
-});
-self.addEventListener("activate", (event) => {
-  console.log("Service worker activated");
+  event.waitUntil(addResourcesToCache([
+    "/",
+    "/about"
+  ]));
 });
