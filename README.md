@@ -1,6 +1,6 @@
 # DDFocus
 
-
+concentration, breathing and meditation
 
 ## features
 - white noise
