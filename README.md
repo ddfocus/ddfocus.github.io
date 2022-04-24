@@ -19,17 +19,7 @@ inspired by https://github.com/petele/SoundDrown
 - improve a2hs
 
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
 
 ## Developing
 
