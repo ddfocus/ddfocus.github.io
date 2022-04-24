@@ -20,4 +20,4 @@
 - Tailwind CSS
 
 
-[editor on GitHub](https://github.com/ttiq/ttiq.github.io/edit/main/README.md)
+[editor on GitHub](https://github.com/ddfocus/ddfocus.github.io/edit/main/README.md)
