@@ -1,4 +1,4 @@
-const version = "1650784994599";
+const version = "1650785177511";
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(version);
   await cache.addAll(resources);
