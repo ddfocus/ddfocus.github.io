@@ -1,4 +1,4 @@
-const version = "1650786282799";
+const version = "1650789586356";
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(version);
   await cache.addAll(resources);
@@ -10,7 +10,6 @@ self.addEventListener("install", (event) => {
   ]));
 });
 self.addEventListener("activate", (event) => {
-  console.log("\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u043D");
 });
 self.addEventListener("fetch", (event) => {
   event.respondWith(fetch(event.request));

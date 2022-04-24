@@ -16,7 +16,7 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener('activate', (event) => {
-    console.log('pwa activate');
+    // console.log('pwa activate');
 });
 
 //simple strategy - only network
