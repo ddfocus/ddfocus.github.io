@@ -24,11 +24,12 @@ self.addEventListener('activate', (event) => {
 });
 
 
-// self.addEventListener('fetch', (event) => {
-// 	event.respondWith(
-// 		caches.match(event.request)
-// 	);
-// });
+self.addEventListener('fetch', (event) => {
+    console.log('fetch');
+	// event.respondWith(
+	// 	caches.match(event.request)
+	// );
+});
 
 
 
