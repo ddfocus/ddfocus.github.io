@@ -5,7 +5,7 @@ import { build, files, prerendered, version } from '$service-worker';
 
 
 const addResourcesToCache = async (resources) => {
-	const cache = await caches.open("v1");
+	const cache = await caches.open(version);
 	await cache.addAll(resources);
 };
 
@@ -18,6 +18,17 @@ self.addEventListener("install", (event) => {
 		])
 	);
 });
+
+self.addEventListener('activate', (event) => {
+    console.log('Активирован');
+});
+
+
+// self.addEventListener('fetch', (event) => {
+// 	event.respondWith(
+// 		caches.match(event.request)
+// 	);
+// });
 
 
 
