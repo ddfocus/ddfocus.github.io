@@ -1,6 +1,23 @@
-# create-svelte
+# DDFocus
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+
+
+## features
+- white noise
+- meditations
+- breath
+- claim
+etc.
+
+inspired by https://github.com/petele/SoundDrown
+
+## todo - roadmap
+
+- styles with TailwindCSS
+- offline access
+- more sounds
+- improve a2hs
+
 
 ## Creating a project
 
