@@ -1,6 +1,7 @@
 {
   "name": "ddfocus",
   "version": "0.1.20220424",
+  "license": "MIT",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
